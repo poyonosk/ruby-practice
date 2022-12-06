@@ -7,6 +7,7 @@ def fizz_buzz(number)
   elsif number % 3 == 0 
     puts "Fizz"
   else
+    number.to_s
   end
   
 end
